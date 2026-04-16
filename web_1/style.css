@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/background/20230412/original/pngtree-nature-forest-sun-ecology-picture-image_2394782.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    margin-top: 35px;
+    float: right;
+    list-style: none ;
+    
+}
+
+ul li{
+    display: inline-block;
+     
+}
+
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    transition: all 0.6 ease;
+}
+
+/* ✅ HOVER WORKING */
+ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin :auto;
+}
